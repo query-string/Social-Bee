@@ -1,7 +1,12 @@
 require "social-bee/version"
+require 'twitter'
+require 'koala'
+require 'vk-ruby'
 
-module Social
-  module Bee
-    # Your code goes here...
-  end
+
+%w(twi facebook vkontakte).each do |lib|
+  require "social-bee/#{lib}"
+end
+
+module SocialBee
 end

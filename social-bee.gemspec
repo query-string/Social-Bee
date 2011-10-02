@@ -5,11 +5,11 @@ require "social-bee/version"
 Gem::Specification.new do |s|
   s.name        = "social-bee"
   s.version     = Social::Bee::VERSION
-  s.authors     = ["FCBM-fields"]
+  s.authors     = ["Alexander Timofeev"]
   s.email       = ["atimofeev@reactant.ru"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "http://www.atimofeev.ru"
+  s.summary     = %q{Be social}
+  s.description = %q{Easy messaging in Facebook, Twitter, Vkontakte}
 
   s.rubyforge_project = "social-bee"
 

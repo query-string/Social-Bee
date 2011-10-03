@@ -4,12 +4,12 @@ require "social-bee/version"
 
 Gem::Specification.new do |s|
   s.name        = "social-bee"
-  s.version     = Social::Bee::VERSION
+  s.version     = SocialBee::VERSION
   s.authors     = ["Alexander Timofeev"]
   s.email       = ["atimofeev@reactant.ru"]
-  s.homepage    = "http://www.atimofeev.ru"
+  s.homepage    = "https://github.com/ATimofeev/Social-Bee"
   s.summary     = %q{Be social}
-  s.description = %q{Easy messaging in Facebook, Twitter, Vkontakte}
+  s.description = %q{Simple messaging wrapper for Facebook, Twitter, Vkontakte}
 
   s.rubyforge_project = "social-bee"
 
@@ -20,5 +20,7 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  s.add_runtime_dependency "twitter"
+  s.add_runtime_dependency "koala"
+  s.add_runtime_dependency "vk-ruby"
 end

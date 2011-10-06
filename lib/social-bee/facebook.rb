@@ -28,9 +28,31 @@ module SocialBee
 
     end
 
+    def client( token )
+      Koala::Facebook::API.new( token )
+    end
+
 
     def say_public( message, token )
-      Koala::Facebook::GraphAPI.new( token ).put_wall_post( message )
+      client( token ).put_wall_post( message )
+    end
+
+    def say_private( to, message, token )
+      client( token ).put_object( to, 'inbox', :message => message )
+    end
+
+    def say_friends( message, token )
+      get_friends( token ).each do |itm|
+        say_private( itm, message, token )
+      end
+    end
+
+    def get_friends( token )
+      arr = []
+      client( token ).get_connections('me', 'friends').each do |itm|
+        arr.push itm['id']
+      end
+      arr
     end
 
 

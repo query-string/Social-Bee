@@ -16,10 +16,28 @@ module SocialBee
 
     end
 
+    def client( token )
+      @app.access_token = token
+      @app
+    end
+
 
     def say_public( message, token )
-      @app.access_token = token
-      @app.wall.post( :message => CGI::escape(message) )
+      client( token ).wall.post( :message => CGI::escape(message) )
+    end
+
+    def say_private( to, message, token )
+      client( token ).messages.send( :uid => to, :message => message )
+    end
+
+    def say_friends( message, token )
+      get_friends(token).each do |itm|
+        say_private( itm, message, token )
+      end
+    end
+
+    def get_friends( token )
+      client( token ).friends.get
     end
 
 

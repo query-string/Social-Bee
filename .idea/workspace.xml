@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b567d4b-4a32-4942-80d0-6d4c30dd9b8a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/social-bee/facebook.rb" afterPath="$PROJECT_DIR$/lib/social-bee/facebook.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/social-bee/twi.rb" afterPath="$PROJECT_DIR$/lib/social-bee/twi.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/social-bee/vkontakte.rb" afterPath="$PROJECT_DIR$/lib/social-bee/vkontakte.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/social-bee/version.rb" afterPath="$PROJECT_DIR$/lib/social-bee/version.rb" />
     </list>
     <ignored path="social-bee.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,19 +70,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vkontakte.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="vkontakte.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/social-bee/vkontakte.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="75" selection-start="622" selection-end="622" vertical-scroll-proportion="0.53377265">
+            <state line="27" column="75" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/social-bee/version.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+            <state line="1" column="18" selection-start="35" selection-end="35" vertical-scroll-proportion="0.019769358">
               <folding />
             </state>
           </provider>
@@ -111,11 +107,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/social-bee.gemspec" />
-        <option value="$PROJECT_DIR$/lib/social-bee/version.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/social-bee/twi.rb" />
         <option value="$PROJECT_DIR$/lib/social-bee/vkontakte.rb" />
         <option value="$PROJECT_DIR$/lib/social-bee/facebook.rb" />
+        <option value="$PROJECT_DIR$/lib/social-bee/version.rb" />
       </list>
     </option>
   </component>
@@ -444,11 +440,6 @@
         <state line="24" column="12" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/social-bee/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/social-bee.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="7" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" />
@@ -470,7 +461,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/social-bee/vkontakte.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="75" selection-start="622" selection-end="622" vertical-scroll-proportion="0.53377265">
+        <state line="27" column="75" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/social-bee/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="35" selection-end="35" vertical-scroll-proportion="0.019769358">
           <folding />
         </state>
       </provider>
